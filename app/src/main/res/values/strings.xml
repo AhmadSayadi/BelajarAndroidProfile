@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyProfilSayadi</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="nama___ahmad_sayadi_string">Nama : Ahmad Sayadi</string>
+    <string name="nrp___31123034_string">NRP    : 31123034</string>
+    <string name="twitter_string">Twitter</string>
+    <string name="about_me_string">About Me</string>
+    <string name="website_string">Website</string>
+    <string name="location_string">Location</string>
+</resources>
