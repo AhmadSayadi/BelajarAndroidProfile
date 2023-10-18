@@ -17,22 +17,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyProfilSayadi"
         tools:targetApi="31">
-        <activity
-            android:name=".LocationActivity"
-            android:exported="false" />
+
         <!-- <meta-data -->
         <!-- android:name="com.google.android.geo.API_KEY" -->
         <!-- android:value="AIzaSyB8Zp_xB5VjC-sgVqsPeLxOyxRnfvqCasE" /> -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyA82TJ4XEB9JuNcOo1ejpvYklMIv5SDXPU" />
-
+        <activity
+            android:name=".LocationActivity"
+            android:exported="false" />
         <activity
             android:name=".website"
             android:exported="false" />
-        <activity
-            android:name=".Location"
-            android:exported="false" />
+
         <activity
             android:name=".aboutme"
             android:exported="false" />

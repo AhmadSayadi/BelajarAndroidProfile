@@ -54,5 +54,25 @@ public class MainActivity extends AppCompatActivity {
 //                Intent intent = new Intent(PackageContex, Twitter.class);
             }
         });
+
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,LocationActivity.class);
+                startActivity(intent);
+//                Toast.makeText(MainActivity.this, "Halo", Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(PackageContex, Twitter.class);
+            }
+        });
+
+        aboutme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,aboutme.class);
+                startActivity(intent);
+//                Toast.makeText(MainActivity.this, "Halo", Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(PackageContex, Twitter.class);
+            }
+        });
     }
 }
